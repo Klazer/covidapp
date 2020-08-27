@@ -1,0 +1,23 @@
+.container {
+  justify-content: center;
+  width: 85%;
+}
+
+#buttons {
+  display: inline-block;
+  align-items: center;
+  width: 48.4%;
+  margin: 0 10px;
+}
+
+#charts {
+  display: flex;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}

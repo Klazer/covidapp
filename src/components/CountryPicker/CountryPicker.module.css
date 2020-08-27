@@ -1,0 +1,4 @@
+.formControl {
+  width: 30%;
+  margin-bottom: 30px !important; /*We are adding this on a formControl element and is not being styled inline*/
+}

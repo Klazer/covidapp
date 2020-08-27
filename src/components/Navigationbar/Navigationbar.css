@@ -1,0 +1,16 @@
+.navbar {
+  background: #252323;
+}
+
+.navbar .navbar-collapse {
+  /*Centers text in the collapsed navbar*/
+  text-align: center;
+}
+
+.navbar span {
+  color: white;
+}
+
+.navbar span:hover {
+  color: grey;
+}
