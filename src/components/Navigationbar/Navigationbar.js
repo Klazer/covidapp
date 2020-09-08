@@ -5,7 +5,9 @@ import "./Navigationbar.css";
 
 export const Navigationbar = () => (
   <Navbar className="navbar" expand="lg" bg="black" variant="dark">
-    <Navbar.Brand href="/">Isaiah Herr's Website</Navbar.Brand>
+    <Navbar.Brand href="https://isaiahherr.com/">
+      Isaiah Herr's Website
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     {/*Creates the hamburger icon when the screen gets smaller*/}
     <Navbar.Collapse id="responsive-navbar-nav">
