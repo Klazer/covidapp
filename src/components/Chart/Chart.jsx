@@ -91,21 +91,8 @@ const Chart = ({
     />
   ) : null; //If data exists, create bar chart otherwise return null
 
-  function chartButton() {
-    isCurrent = Boolean(true);
-    return dailyGlobalChart;
-  }
-
   return (
-    <div className={styles.container}>
-      <Button id={styles.buttons} onClick={chartButton}>
-        Daily
-      </Button>
-      <Button id={styles.buttons} onClick={chartButton}>
-        Total
-      </Button>
-      {country || isCurrent == Boolean(true) ? barChart : lineChart}
-    </div>
+    <div className={styles.container}>{country ? barChart : lineChart}</div>
   ); //If a country is chosen, display a bar chart otherwise display a line chart
 };
 
